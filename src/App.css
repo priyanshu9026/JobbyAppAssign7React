@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Style for the login form container */
+.bg-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #272727;
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.website-img {
+  width: 170px;
+}
+/* Style for the form title */
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Style for form inputs */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+/* Style for submit button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Style for submit button on hover */
+.login-container button:hover {
+  background-color: #0056b3;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-job {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
